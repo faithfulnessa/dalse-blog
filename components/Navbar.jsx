@@ -5,7 +5,7 @@ import Link from "next/link";
 function Navbar() {
   return (
     <>
-      <header className="bg-white shadow-sm px-5 py-3 dark:text-black">
+      <header className="bg-white shadow-sm px-5 py-3  dark:text-white dark:bg-black">
         <nav className="flex items-center max-w-7xl mx-auto justify-between">
           <Link href="/">
             <span className="font-bold text-xl">Dalse<span className="text-blue-500">Blog</span></span>
